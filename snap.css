@@ -1,0 +1,121 @@
+header{
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+   /* justify-content: space-between;*/
+    width: 100%;
+}
+.about{
+    display: flex;
+    justify-content: left;
+
+}
+.about ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+.about ul li{
+    display: flex;
+    align-items: center;
+}
+.about ul li img{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    gap: 1rem;
+}
+.subfeature ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    }
+.subfeature{
+    position: absolute;
+    top: 4rem;
+    display: none;
+}
+.subcompany{
+    position: absolute;
+    top: 4rem;
+    left: 11rem;
+    display: none;
+}
+.subcompany ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.subfeatureshow{
+    background-color: rgb(244, 246, 247);
+    box-shadow:10px 5px 10px rgb(231, 228, 228);
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    width: 10rem;
+}
+.master{
+    width: 100%;
+    display: flex;
+}
+.tasvir img{
+width: 70%;
+}
+.tasvir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.make{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+.ban{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.lo{
+    width: 70%;
+}
+.work{
+    width: 100%;
+    font-size: 3rem;
+}
+.careers :hover{
+cursor: pointer;
+}
+.about :hover{
+    cursor: pointer;
+}
+#Features :hover{
+cursor: pointer;
+}
+#Company:hover{
+    cursor: pointer;
+}
+.ul li{
+    margin:10px;
+}
+.log :hover, .reg :hover{
+cursor: pointer;
+border: 1px gray solid;
+padding: 10px;
+border-radius: 5px;
+}
